@@ -1,5 +1,5 @@
 KEEP.initLazyLoad = () => {
-  const imgs = document.querySelectorAll('img');
+  const imgs = document.querySelectorAll('img:not(.dplayer-logo)');
   let now = Date.now();
   let needLoad = true;
 
